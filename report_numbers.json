@@ -1,0 +1,107 @@
+{
+  "dataset": {
+    "Records (rows / flows)": "400,001",
+    "Variables (columns)": 40,
+    "Feature columns": 39,
+    "Target column": "label",
+    "Numeric features": 39,
+    "Non-numeric features": 0,
+    "Memory (MB)": 80.1
+  },
+  "class_distribution": {
+    "DDOS-ICMP_FLOOD": 61256,
+    "DDOS-UDP_FLOOD": 45965,
+    "DDOS-TCP_FLOOD": 38242,
+    "DDOS-PSHACK_FLOOD": 34870,
+    "DDOS-SYN_FLOOD": 34545,
+    "DDOS-RSTFINFLOOD": 34440,
+    "DDOS-SYNONYMOUSIP_FLOOD": 30590,
+    "DOS-UDP_FLOOD": 28214,
+    "DOS-TCP_FLOOD": 22773,
+    "DOS-SYN_FLOOD": 17217,
+    "BENIGN": 9333,
+    "MIRAI-GREETH_FLOOD": 8444,
+    "MIRAI-UDPPLAIN": 7591,
+    "MIRAI-GREIP_FLOOD": 6378,
+    "DDOS-ICMP_FRAGMENTATION": 3864,
+    "VULNERABILITYSCAN": 3175,
+    "MITM-ARPSPOOFING": 2635,
+    "DDOS-ACK_FRAGMENTATION": 2438,
+    "DDOS-UDP_FRAGMENTATION": 2432,
+    "DNS_SPOOFING": 1524,
+    "RECON-HOSTDISCOVERY": 1153,
+    "RECON-OSSCAN": 823,
+    "RECON-PORTSCAN": 694,
+    "DOS-HTTP_FLOOD": 613,
+    "DDOS-HTTP_FLOOD": 244,
+    "DDOS-SLOWLORIS": 201,
+    "DICTIONARYBRUTEFORCE": 114,
+    "BROWSERHIJACKING": 51,
+    "SQLINJECTION": 45,
+    "COMMANDINJECTION": 44,
+    "XSS": 35,
+    "BACKDOOR_MALWARE": 27,
+    "RECON-PINGSWEEP": 19,
+    "UPLOADING_ATTACK": 12
+  },
+  "imbalance_ratio": 5104.7,
+  "data_quality": {
+    "missing_cells": 14,
+    "duplicate_rows": 71295,
+    "infinite_values": 10,
+    "constant_columns": [],
+    "rows_after_dedup": 328706
+  },
+  "n_features_after_selection": 31,
+  "split_sizes": {
+    "train": 230094,
+    "val": 49306,
+    "test": 49306
+  },
+  "baseline_binary": [
+    {
+      "model": "Majority-class",
+      "accuracy": 0.9716,
+      "precision": 0.9716,
+      "recall": 1.0,
+      "f1": 0.9856
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9718,
+      "precision": 1.0,
+      "recall": 0.971,
+      "f1": 0.9853
+    },
+    {
+      "model": "Decision Tree (depth 8)",
+      "accuracy": 0.9818,
+      "precision": 0.9999,
+      "recall": 0.9813,
+      "f1": 0.9906
+    }
+  ],
+  "baseline_multiclass": [
+    {
+      "model": "Majority-class",
+      "accuracy": 0.6874,
+      "precision": 0.0859,
+      "recall": 0.125,
+      "f1": 0.1018
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.6914,
+      "precision": 0.5328,
+      "recall": 0.5777,
+      "f1": 0.5038
+    },
+    {
+      "model": "Decision Tree (depth 12)",
+      "accuracy": 0.7592,
+      "precision": 0.6,
+      "recall": 0.6408,
+      "f1": 0.5863
+    }
+  ]
+}

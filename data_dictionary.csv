@@ -1,0 +1,41 @@
+variable,type,example,n_unique,role
+Header_Length,numeric,25.6,1107,feature
+Protocol Type,numeric,6,5,feature
+Time_To_Live,numeric,147.7,4662,feature
+Rate,numeric,9.8668375,77893,feature
+fin_flag_number,numeric,0.0,91,feature
+syn_flag_number,numeric,0.1,130,feature
+rst_flag_number,numeric,0.0,110,feature
+psh_flag_number,numeric,0.4,133,feature
+ack_flag_number,numeric,0.6,164,feature
+ece_flag_number,numeric,0.0,12,feature
+cwr_flag_number,numeric,0.0,8,feature
+ack_count,numeric,6,101,feature
+syn_count,numeric,1,101,feature
+fin_count,numeric,0,87,feature
+rst_count,numeric,0,101,feature
+HTTP,numeric,0.0,110,feature
+HTTPS,numeric,0.6,133,feature
+DNS,numeric,0.0,78,feature
+Telnet,numeric,0.0,5,feature
+SMTP,numeric,0.0,3,feature
+SSH,numeric,0.0,16,feature
+IRC,numeric,0.1,4,feature
+TCP,numeric,0.7,162,feature
+UDP,numeric,0.3,154,feature
+DHCP,numeric,0.0,18,feature
+ARP,numeric,0.0,92,feature
+ICMP,numeric,0.0,137,feature
+IGMP,numeric,0.0,5,feature
+IPv,numeric,1.0,92,feature
+LLC,numeric,1.0,92,feature
+Tot sum,numeric,1359,18772,feature
+Min,numeric,66,368,feature
+Max,numeric,230,1965,feature
+AVG,numeric,135.9,18903,feature
+Std,numeric,64.3367,37145,feature
+Tot size,numeric,135.9,18903,feature
+IAT,numeric,0.103600904,78497,feature
+Number,numeric,10,99,feature
+Variance,numeric,4139.211,37157,feature
+label,categorical,BACKDOOR_MALWARE,34,target
