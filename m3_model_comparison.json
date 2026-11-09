@@ -1,0 +1,23 @@
+[
+  {
+    "model":"Baseline DT",
+    "accuracy":0.726,
+    "macro_precision":0.6041,
+    "macro_recall":0.6549,
+    "macro_f1":0.575
+  },
+  {
+    "model":"CatBoost",
+    "accuracy":0.7423,
+    "macro_precision":0.6396,
+    "macro_recall":0.6858,
+    "macro_f1":0.6446
+  },
+  {
+    "model":"Voting Ensemble",
+    "accuracy":0.7958,
+    "macro_precision":0.695,
+    "macro_recall":0.675,
+    "macro_f1":0.6706
+  }
+]

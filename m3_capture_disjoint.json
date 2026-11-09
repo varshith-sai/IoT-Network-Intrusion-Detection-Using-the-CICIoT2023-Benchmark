@@ -1,0 +1,16 @@
+[
+  {
+    "model":"CatBoost",
+    "accuracy":0.7423,
+    "macro_precision":0.6396,
+    "macro_recall":0.6858,
+    "macro_f1":0.6446
+  },
+  {
+    "model":"CatBoost (capture-disjoint)",
+    "accuracy":0.7395,
+    "macro_precision":0.6433,
+    "macro_recall":0.6849,
+    "macro_f1":0.6468
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "per_class_recall": {
+    "Benign": 0.851,
+    "BruteForce": 0.241,
+    "DDoS": 0.772,
+    "DoS": 0.823,
+    "Mirai": 0.997,
+    "Recon": 0.762,
+    "Spoofing": 0.861,
+    "Web": 0.093
+  },
+  "top_confusions": [
+    [
+      "DDoS",
+      "DoS",
+      16442
+    ],
+    [
+      "DoS",
+      "DDoS",
+      3035
+    ],
+    [
+      "Recon",
+      "Benign",
+      304
+    ],
+    [
+      "Benign",
+      "Recon",
+      294
+    ],
+    [
+      "Spoofing",
+      "Benign",
+      97
+    ],
+    [
+      "Spoofing",
+      "Recon",
+      45
+    ],
+    [
+      "Benign",
+      "Spoofing",
+      41
+    ],
+    [
+      "Web",
+      "Recon",
+      31
+    ]
+  ]
+}

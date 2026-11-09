@@ -1,0 +1,56 @@
+{
+  "model_comparison": [
+    {
+      "model": "Baseline DT",
+      "accuracy": 0.726,
+      "macro_precision": 0.6041,
+      "macro_recall": 0.6549,
+      "macro_f1": 0.575
+    },
+    {
+      "model": "CatBoost",
+      "accuracy": 0.7423,
+      "macro_precision": 0.6396,
+      "macro_recall": 0.6858,
+      "macro_f1": 0.6446
+    },
+    {
+      "model": "Voting Ensemble",
+      "accuracy": 0.7958,
+      "macro_precision": 0.695,
+      "macro_recall": 0.675,
+      "macro_f1": 0.6706
+    }
+  ],
+  "best_model": "Voting Ensemble",
+  "binary_FPR": 0.1492,
+  "binary_FNR": 0.0043,
+  "per_class_recall": {
+    "Benign": 0.851,
+    "BruteForce": 0.241,
+    "DDoS": 0.772,
+    "DoS": 0.823,
+    "Mirai": 0.997,
+    "Recon": 0.762,
+    "Spoofing": 0.861,
+    "Web": 0.093
+  },
+  "capture_disjoint": {
+    "model": "CatBoost (capture-disjoint)",
+    "accuracy": 0.7395,
+    "macro_precision": 0.6433,
+    "macro_recall": 0.6849,
+    "macro_f1": 0.6468
+  },
+  "n_features_kept": 31,
+  "classes": [
+    "Benign",
+    "BruteForce",
+    "DDoS",
+    "DoS",
+    "Mirai",
+    "Recon",
+    "Spoofing",
+    "Web"
+  ]
+}

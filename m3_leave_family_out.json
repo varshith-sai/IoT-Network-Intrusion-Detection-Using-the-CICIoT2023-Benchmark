@@ -1,0 +1,17 @@
+[
+  {
+    "held_out_family":"Web",
+    "test_flows":214,
+    "caught_as_some_attack":0.701
+  },
+  {
+    "held_out_family":"BruteForce",
+    "test_flows":114,
+    "caught_as_some_attack":0.719
+  },
+  {
+    "held_out_family":"Recon",
+    "test_flows":5864,
+    "caught_as_some_attack":0.296
+  }
+]
